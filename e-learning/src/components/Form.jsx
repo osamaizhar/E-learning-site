@@ -40,7 +40,7 @@ function DataForm() {
           </Form.Group>
           <Form.Group className="mb-3">
             <Form.Label>Duration</Form.Label>
-            <Form.Control type="text" placeholder="Enter Duration" />
+            <Form.Control type="number" placeholder="Enter Duration" />
           </Form.Group>
           <Form.Label>Type of excercise</Form.Label>
 
