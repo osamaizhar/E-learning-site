@@ -27,7 +27,8 @@ function DataForm() {
       });
   };
   return (
-    <Container>
+    <div>
+      <Container>
       <Col lg={8} className="m-auto">
         <Form onSubmit={submitExercise}>
           <Form.Group className="mb-3">
@@ -62,6 +63,8 @@ function DataForm() {
         </Form>
       </Col>
     </Container>
+    </div>
+    
   );
 }
 
