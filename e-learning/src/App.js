@@ -8,6 +8,8 @@ import NAV from "./components/nav";
 //import ControlledCarousel from "./components/carousel";
 import DataForm from './components/Form';
 import Homepage from './components/Homepage';
+import ActivityPage from './components/activitypage';
+import Example from './components/table_test';
 
 // All the routing done here
 function App() {
@@ -20,6 +22,8 @@ function App() {
 
     </div> } />
     <Route path="form" element={ <DataForm/> } />
+    <Route path="activity" element={ <ActivityPage/> } />
+    
   </Routes>
   )
 }

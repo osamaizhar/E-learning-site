@@ -17,8 +17,9 @@ function NAV(){
         
                 </Nav>
                 <Nav>
+                <Link to="activity">
                   <Nav.Link href="#deets">Activities</Nav.Link>
-                  
+                </Link>
                   {/* <Nav.Link eventKey={2} href="contact">
                     Contact
                   </Nav.Link> */}
