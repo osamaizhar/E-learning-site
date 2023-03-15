@@ -2,7 +2,7 @@ import React from 'react';
 import { Container, Row, Col, Button } from 'react-bootstrap';
 import { Link } from "react-router-dom";
 import NAV from './nav';
-import Last from './last';
+
 import Footer from './last';
 const Homepage = () => {
   return (
@@ -11,7 +11,7 @@ const Homepage = () => {
       <NAV/>
       <Row className='bg-dark text-light py-5'>
         
-        <Col md={6}>
+        <Col id={"label"} md={6}>
 
           <h1>Your Fitness Tracker</h1>
           <p>Track your routines, set goals and get fit.</p>
@@ -23,10 +23,11 @@ const Homepage = () => {
           
         </Col>
         <Col md={6}>
-          <img
-            src='https://images.unsplash.com/photo-1551288049-bebda4e38f71?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60'
+          <img 
+            src='https://www.muscleandfitness.com/wp-content/uploads/2016/09/Bodybuilder-Working-Out-His-Upper-Body-With-Cable-Crossover-Exercise.jpg?quality=86&strip=all0'
             alt='fitness tracker'
             className='img-fluid rounded'
+            id="img1"
           />
         </Col>
       </Row>
@@ -53,7 +54,7 @@ const Homepage = () => {
         </Col>
       </Row> */}
          </Container>
-        <Footer/>
+         <Footer/>   
     </div>
     
   );
