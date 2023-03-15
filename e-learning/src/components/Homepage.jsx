@@ -2,17 +2,19 @@ import React from 'react';
 import { Container, Row, Col, Button } from 'react-bootstrap';
 import { Link } from "react-router-dom";
 import NAV from './nav';
+import Last from './last';
 const Homepage = () => {
   return (
-    <Container fluid>
+    <div>
+      <Container fluid>
       <NAV/>
       <Row className='bg-dark text-light py-5'>
         
         <Col md={6}>
-        
+
           <h1>Your Fitness Tracker</h1>
           <p>Track your routines, set goals and get fit.</p>
-              <Link to="/form">
+              <Link to="form">
             <Button variant='primary' size='lg'>
               Open App Form
             </Button>{' '}
@@ -41,15 +43,19 @@ const Homepage = () => {
           <p>See your progress and celebrate your achievements.</p>
         </Col>
       </Row>
-      <Row className='bg-secondary text-white py-5'>
+      {/* <Row className='bg-secondary text-white py-5'>
         <Col md={{ span: 6, offset: 3 }}>
           <h2>Get Started Today!</h2>
           <Button variant='primary' size='lg'>
             Sign Up
           </Button>{' '}
         </Col>
-      </Row>
+      </Row> */}
+      <Last/>
     </Container>
+    
+    </div>
+    
   );
 };
 

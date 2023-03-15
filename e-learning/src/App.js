@@ -1,3 +1,4 @@
+
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './App.css';
 import { BrowserRouter,Route,Routes } from "react-router-dom";
@@ -8,11 +9,13 @@ import NAV from "./components/nav";
 import DataForm from './components/Form';
 import Homepage from './components/Homepage';
 import { Nav } from 'react-bootstrap';
+import Last from './components/last';
 //import footer from './components/footer';
 // import Navbar from 'react-bootstrap/Navbar';
 // import NavDropdown from 'react-bootstrap/NavDropdown';
 // import {Nav, Navbar, NavDropdown, Container} from 'react-bootstrap';
 
+// All the routing done here
 function App() {
   return (
     <Routes>
@@ -20,6 +23,7 @@ function App() {
     <div>
       {/* <Nav/>  */}
       <Homepage/>
+
     </div> } />
     <Route path="form" element={ <DataForm/> } />
   </Routes>

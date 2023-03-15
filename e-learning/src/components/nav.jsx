@@ -26,6 +26,7 @@ function NAV(){
                 </Nav>
                 <Nav>
                   <Nav.Link href="#deets">Activities</Nav.Link>
+                  
                   <Nav.Link eventKey={2} href="#memes">
                     Contact
                   </Nav.Link>
