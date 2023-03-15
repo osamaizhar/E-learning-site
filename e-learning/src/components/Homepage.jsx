@@ -14,7 +14,7 @@ const Homepage = () => {
         <Col id={"label"} md={6}>
 
           <h1>Your Fitness Tracker</h1>
-          <p>Track your routines, set goals and get fit.</p>
+          <p>Track your routines, set goals and get fit. (By Abdullah and Osama)</p>
               <Link to="form">
             <Button variant='primary' size='lg'>
               Open App Form
