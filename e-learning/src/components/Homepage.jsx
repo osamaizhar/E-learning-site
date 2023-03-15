@@ -3,6 +3,7 @@ import { Container, Row, Col, Button } from 'react-bootstrap';
 import { Link } from "react-router-dom";
 import NAV from './nav';
 import Last from './last';
+import Footer from './last';
 const Homepage = () => {
   return (
     <div>
@@ -51,9 +52,8 @@ const Homepage = () => {
           </Button>{' '}
         </Col>
       </Row> */}
-      <Last/>
-    </Container>
-    
+         </Container>
+        <Footer/>
     </div>
     
   );

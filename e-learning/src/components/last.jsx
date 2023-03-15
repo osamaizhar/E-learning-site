@@ -1,50 +1,54 @@
-import React from 'react';
-import {
-  MDBFooter,
-  MDBContainer,
-  MDBCol,
-  MDBRow,
-  MDBIcon,
-  MDBBtn
-} from 'mdb-react-ui-kit';
-import { facebook } from "react-bootstrap-icons";
+import React from "react";
+import styles from '../style/footer.css';
 
-export default function Last() {
+const Footer = () => {
   return (
-    <MDBFooter className='bg-dark text-center text-white'>
-      <MDBContainer className='p-4 pb-0'>
-        <section className='mb-4'>
-          <MDBBtn outline color="light" floating className='m-1' href='#!' role='button'>
-            <MDBIcon fab icon='facebook' />
-          </MDBBtn>
-
-          <MDBBtn outline color="light" floating className='m-1' href='#!' role='button'>
-            <MDBIcon fab icon='twitter' />
-          </MDBBtn>
-
-          <MDBBtn outline color="light" floating className='m-1' href='#!' role='button'>
-            <MDBIcon fab icon='google' />
-          </MDBBtn>
-          <MDBBtn outline color="light" floating className='m-1' href='#!' role='button'>
-            <MDBIcon fab icon='instagram' />
-          </MDBBtn>
-
-          <MDBBtn outline color="light" floating className='m-1' href='#!' role='button'>
-            <MDBIcon fab icon='linkedin-in' />
-          </MDBBtn>
-
-          <MDBBtn outline color="light" floating className='m-1' href='#!' role='button'>
-            <MDBIcon fab icon='github' />
-          </MDBBtn>
-        </section>
-      </MDBContainer>
-
-      <div className='text-center p-3' style={{ backgroundColor: 'rgba(0, 0, 0, 0.2)' }}>
-        © 2020 Copyright:
-        <a className='text-white' href='https://mdbootstrap.com/'>
-          MDBootstrap.com
-        </a>
+    <div className="styles">
+        <footer className="bg-dark text-white p-4 text-center ">
+      <div className="container">
+        <div className="row">
+          <div className="col-md-4 mb-3">
+            <h4>About us</h4>
+            <p>We are a passionate team dedicated to helping you achieve your fitness goals.</p>
+          </div>
+          <div className="col-md-4 mb-3">
+            <h4>Contact</h4>
+            <p>Email: info@fitnessapp.com</p>
+            <p>Phone: +1 (555) 555-5555</p>
+          </div>
+          <div className="col-md-4 mb-3">
+            <h4>Follow Us</h4>
+            <ul className="list-inline">
+              <li className="list-inline-item">
+                <a href="#">
+                  <i className="fab fa-twitter"></i>
+                  Twitter
+                </a>
+              </li>
+              <li className="list-inline-item">
+                <a href="#">
+                  <i className="fab fa-facebook"></i>
+                  Facebook
+                </a>
+              </li>
+              <li className="list-inline-item">
+                <a href="#">
+                  <i className="fab fa-instagram"></i>
+                  Instagram
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
       </div>
-    </MDBFooter>
+      <div className="text-muted small text-center mb-0">
+        &copy; Fitness App 2021. All rights reserved.
+      </div>
+    </footer>
+    </div>
+    
   );
-}
+};
+
+export default Footer;
+
