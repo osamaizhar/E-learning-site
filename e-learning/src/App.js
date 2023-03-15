@@ -21,13 +21,6 @@ function App() {
     </div> } />
     <Route path="form" element={ <DataForm/> } />
   </Routes>
-    // <div className="App">
-    //   <NAV />
-    //   <Homepage />
-    //   {/* <ControlledCarousel /> */}
-    //   <DataForm/>
-    //   <footer/>
-    // </div>
   )
 }
 
