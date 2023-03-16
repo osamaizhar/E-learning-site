@@ -10,15 +10,17 @@ function NAV(){
               <Navbar.Toggle aria-controls="responsive-navbar-nav" />
               <Navbar.Collapse id="responsive-navbar-nav">
                 <Nav className="me-auto">
-                  <Nav.Link href="#features">Home</Nav.Link>
+                  <Link to="/">
+                  <Nav.Link href="/">Home</Nav.Link>
+                  </Link>
                   <Link to="form">
-                    <Nav.Link href="#pricing">Form</Nav.Link>
+                    <Nav.Link href='/'>Form</Nav.Link>
                   </Link>
         
                 </Nav>
                 <Nav>
                 <Link to="activity">
-                  <Nav.Link href="#deets">Activities</Nav.Link>
+                  <Nav.Link href="activity">Activities</Nav.Link>
                 </Link>
                   {/* <Nav.Link eventKey={2} href="contact">
                     Contact

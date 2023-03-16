@@ -24,7 +24,7 @@ const Homepage = () => {
         </Col>
         <Col md={6}>
           <img 
-            src='https://www.muscleandfitness.com/wp-content/uploads/2016/09/Bodybuilder-Working-Out-His-Upper-Body-With-Cable-Crossover-Exercise.jpg?quality=86&strip=all0'
+            src='https://media.istockphoto.com/id/1213615970/photo/gym-background-fitness-weight-equipment-on-empty-dark-floor.jpg?s=612x612&w=0&k=20&c=WyPxLxpfd9Pi6l0BMyWsqrrZIi_SrMmgTtYn8k08qQI='
             alt='fitness tracker'
             className='img-fluid rounded'
             // Added css id here to make changes to image
