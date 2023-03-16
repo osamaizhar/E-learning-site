@@ -57,7 +57,7 @@ const Homepage = () => {
           <h3>Stay Motivated</h3>
           <p>See your progress and celebrate your achievements.</p>
           <img 
-            src='https://www.muscleandfitness.com/wp-content/uploads/2016/09/Bodybuilder-Working-Out-His-Upper-Body-With-Cable-Crossover-Exercise.jpg?quality=86&strip=all0'
+            src='https://cdn.shopify.com/s/files/1/1713/2063/articles/image_589844834.jpg?v=1518540190'
             alt='fitness tracker'
             className='imgg img-fluid rounded'
             // id="img1" 
