@@ -1,7 +1,7 @@
 import axios from "axios";
 import { Col, Container, Form } from "react-bootstrap";
 import Button from "react-bootstrap/Button";
-import NAV from './nav';
+//import NAV from './nav';
 function DataForm() {
   const submitExercise = (e) => {
     e.preventDefault();
@@ -28,7 +28,6 @@ function DataForm() {
   };
   return (
     <div>
-    <NAV/>
        <div id={"form"}>
      <Col lg={8} className="m-auto">
         <Form onSubmit={submitExercise}>

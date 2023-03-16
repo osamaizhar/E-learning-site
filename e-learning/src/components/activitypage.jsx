@@ -1,10 +1,9 @@
 import Table from 'react-bootstrap/Table';
 import Button from "react-bootstrap/Button";
-import NAV from './nav';
+//import NAV from './nav';
 function ActivityPage() {
   return (
     <div>
-    <NAV/>
       <h1 className='table_head'>Activity Page</h1>
       <Table striped bordered hover variant="white">
       <thead>
